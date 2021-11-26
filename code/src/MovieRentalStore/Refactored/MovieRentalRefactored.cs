@@ -2,17 +2,17 @@
 {
     public class MovieRentalRefactored
     {
-        private readonly int DaysRented;
-        private readonly MovieRentalPriceCode PriceCode;
+        private readonly int _daysRented;
+        private readonly MovieRentalPriceCode _priceCode;
         public MovieRentalRefactored(int daysRented, MovieRentalPriceCode movieRentalPriceCode)
         {
-            DaysRented = daysRented;
-            PriceCode = movieRentalPriceCode;
+            _daysRented = daysRented;
+            _priceCode = movieRentalPriceCode;
         }
         public void Charge(IPayingCustomer customer)
         {
-            var priceCode = PriceCodeFactory.CalculateCharge(this.PriceCode);
-            var charge = priceCode.CalculateCharge(this.DaysRented);
+            var priceCode = PriceCodeFactory.CalculateCharge(this._priceCode);
+            var charge = priceCode.CalculateCharge(this._daysRented);
             customer.Charge(charge);
         }
     }
