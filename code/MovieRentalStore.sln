@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4FA03DAF-B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRentalStore", "src\MovieRentalStore\MovieRentalStore.csproj", "{9052BD53-BCDA-4CD3-AE82-7C3A3D48AEDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRentalStore.Tests", "test\MovieRentalStore.Tests\MovieRentalStore.Tests.csproj", "{54F39246-3188-4A8D-9B46-FE141B54316E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{9052BD53-BCDA-4CD3-AE82-7C3A3D48AEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9052BD53-BCDA-4CD3-AE82-7C3A3D48AEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9052BD53-BCDA-4CD3-AE82-7C3A3D48AEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F39246-3188-4A8D-9B46-FE141B54316E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F39246-3188-4A8D-9B46-FE141B54316E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F39246-3188-4A8D-9B46-FE141B54316E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F39246-3188-4A8D-9B46-FE141B54316E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9052BD53-BCDA-4CD3-AE82-7C3A3D48AEDF} = {6585D7D3-D1DA-44A2-B9FE-8737383C7117}
+		{54F39246-3188-4A8D-9B46-FE141B54316E} = {4FA03DAF-BEF8-4CD3-889F-FF334CF05728}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A934DA8-B8B7-4833-AABA-E3F95D14C776}
