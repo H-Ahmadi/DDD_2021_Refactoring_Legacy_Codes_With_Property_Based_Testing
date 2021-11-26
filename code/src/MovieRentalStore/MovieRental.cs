@@ -58,7 +58,6 @@ namespace MovieRentalStore
                             var totalRentalFee = rentalCostPerDay * DaysRented;
                             customer.Charge(totalRentalFee);
                         }
-
                         break;
                     }
             }
